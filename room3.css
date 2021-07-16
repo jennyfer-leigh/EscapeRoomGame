@@ -1,0 +1,128 @@
+#roomClues{
+    position: relative;
+}
+
+#clueOne{
+    position:absolute;
+    top: 393px;
+    left: 423px;
+    background-image: url('icons/lobby_pass_icon.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: rotate(0.96turn);
+    cursor:pointer;
+}
+
+#clueOne.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_purple.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueTwo{
+    position:absolute;
+    top: 614px;
+    left: 402px;
+    background-image: url('icons/shome_sub_icon_scroll.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    transform: rotate(0.8turn);
+    cursor:pointer;
+}
+
+#clueTwo.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_brown.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueThree{
+    position:absolute;
+    top: 140px;
+    left: 136px;
+    background-image: url('icons/play_guage_boss_bg_0.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    transform: rotate(0.5turn);
+    cursor:pointer;
+}
+
+#clueThree.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_red.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueFour{
+    position:absolute;
+    top: 590px;
+    left: 250px;
+    background-image: url('icons/common_icon_hourglass.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    transform: rotate(0.915turn);
+    cursor:pointer;
+}
+
+#clueFour.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_yellow.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
+
+
+
+#clueFive{
+    position:absolute;
+    top: 396px;
+    left: 633px;
+    background-image: url('icons/common_icon_timer.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    cursor:pointer;
+}
+
+#clueFive.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_green.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}

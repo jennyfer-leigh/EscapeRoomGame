@@ -1,0 +1,120 @@
+#roomClues{
+    position: relative;
+}
+
+#clueOne{
+    position:absolute;
+    top: 410px;
+    left: 390px;
+    background-image: url('icons/mission_icon_rune.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    cursor:pointer;
+}
+
+#clueOne.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_green.png');
+    height: 400px;
+    width: 400px;
+     cursor:pointer;
+    z-index: 1;
+}
+
+#clueTwo{
+    position:absolute;
+    top: 430px;
+    left: 590px;
+    background-image: url('icons/mission_icon_rune.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+    cursor:pointer;
+}
+
+#clueTwo.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_brown.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueThree{
+    position:absolute;
+    top: 530px;
+    left: 675px;
+    background-image: url('icons/mission_icon_rune.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    cursor:pointer;
+}
+
+#clueThree.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_red.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueFour{
+    position:absolute;
+    top: 480px;
+    left: 310px;
+    background-image: url('icons/mission_icon_rune.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    cursor:pointer;
+}
+
+#clueFour.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_yellow.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+
+
+#clueFive{
+    position:absolute;
+    top: 580px;
+    left: 210px;
+    background-image: url('icons/mission_icon_rune.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    cursor:pointer;
+}
+
+#clueFive.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_purple.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}

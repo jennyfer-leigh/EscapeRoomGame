@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=1.0" />
+    <title>Escape Room</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id ="body">
+    <div class="game">
+
+        <button class = "start">Start</button>
+
+        <h1>Number Escape</h1>
+        <div class="instructions">
+            <p>Use the mouse to search for clues and find the numbers that open the lock. Each lock needs 3 numbers, in the  correct order. Not all the items are clues.
+            Once you think you know the combination hit the button. If you are correct you escape the room and move to the next.
+           Good Luck!
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                    <div class="circle">
+                        <p></p>
+                    </div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle" id="escape"></div>
+            </div>
+            
+            <div id ="roomClues"></div>
+
+                <div class="clues" id="clueOne"><p></p></div>
+                <div class="clues" id="clueTwo"><p></p></div>
+                <div class="clues" id="clueThree"><p></p></div>
+                <div class="clues" id="clueFour"><p></p></div>
+                <div class="clues" id="clueFive"><p></p></div>
+
+            </div>
+
+            <form class="lock">
+                <select name="one" id="firstNum">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="two" id="secondNum">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="three" id="thirdNum">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </form>
+
+            <button class="btn" id="next">Open</button>
+        </div>
+        <script src=script.js></script>
+
+        </div>
+</body>
+</html>

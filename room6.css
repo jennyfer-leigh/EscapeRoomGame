@@ -1,0 +1,18 @@
+h1{
+    opacity:0;
+    cursor:default;
+}
+
+instructions{
+    opacity:0;
+}
+
+.circle{
+opacity: 0;
+
+}
+
+select{
+    opacity: 0;
+    cursor:default;
+}

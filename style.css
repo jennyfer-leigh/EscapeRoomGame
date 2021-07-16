@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+:root{
+    --background-accent-color: orange;
+    --line-border-empty: lightgrey;
+    --lock-accent-color: rgb(1, 188, 235);
+}
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    max-height: 700px;
+    min-height: 700px;
+    max-width: 1000px;
+    min-width: 1000px;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    background-color: var(--background-accent-color);
+    font-family: 'Coiny', cursive;
+    color: white;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.game{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    height:100%;
+    background-image: url('images/emptyWarehouse.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.start{
+    position: absolute;
+    top: 250px;
+    height: 150px;
+    width: 250px;
+    background-color: var(--lock-accent-color);
+    color: white;
+    border:0;
+    border-radius: 6px;
+    box-shadow: 0px 5px 3px black;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+.start.active{
+    opacity: 0;
+    cursor:auto;
+    z-index: -5;
+}
+
+h1{
+    font-size: 3em;
+    text-shadow: 3px 3px black;
+}
+
+.instructions{
+    position:absolute;
+    background-image: url('icons/pause_btn_icon_setting.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: inherit;
+    top: 45px;
+    right:100px;
+    height: 40px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0);
+ }
+
+ .instructions.active{
+    background-image: url('icons/equipment_frame_blue.png');
+    background-position: inherit;
+    background-size: contain;
+    background-repeat:inherit;
+    height: 500px;
+    width: 500px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 1);
+ }
+
+ .instructions.active p{
+     font-size: 20px;    
+    margin: 70px;
+ }
+
+
+.container{
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 350px;
+}
+
+.circle{
+    height:5rem;
+    width: 5rem;
+    color: black;
+    background-image: url('icons/common_item_lock.png');
+    background-position: center;
+    background-size:cover;
+    background-color: var(--background-accent-color);
+    border: 4px solid var(--line-border-empty);
+    box-shadow: 0px 5px 3px black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 6px 0px;
+    transition: 0.4s, ease;
+}
+
+#escape{
+    background-image:url(icons/lobby_play_icon_stage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.circle.active{
+    border-color: var(--lock-accent-color);
+    box-shadow: 0px 5px 3px black, 5px 0px 3px black;
+}
+
+.btn{
+    background-color: var(--lock-accent-color);
+    color: white;
+    border:0;
+    border-radius: 6px;
+    box-shadow: 0px 5px 3px black;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    font-size: 16px;
+}
+
+.btn:active{
+    transform: scale(0.98)
+}
+
+.btn:focus{
+    outline:0;
+}
+
+.btn:disabled{
+    height: 100px;
+    width: 300px;
+    font-size: 20px;
+    cursor: not-allowed;
+}
+
+.lock{
+    display:flex;
+    justify-content: center;
+
+}
+
+select{
+    font-family: inherit;
+    font-size: 40px;
+    color: var(--lock-accent-color);
+    text-shadow: 3px 3px black;
+    border-radius: 6px;
+    box-shadow: 0px 5px 3px black;
+    text-align: center;
+    resize:none;
+    margin: 2px;
+}
+
+select:nth-child(1){
+    border: 4px solid red;
+}
+
+select:nth-child(2){
+    border: 4px solid rgb(128, 13, 143);
+}
+
+select:nth-child(3){
+    border: 4px solid rgb(10, 177, 10)
+}
+
+.clues  p {
+    font-size: 25px;
+    position: absolute;
+    top: -2000px;
+    color: rgba(255, 255, 255, 0);
+    z-index: -99;
+ }
+
+.clues.active p{
+    top: 20px;
+    left: 70px;
+    width: 250px;
+
+    z-index: 2;
+    color: rgba(255, 255, 255, 1);
+}

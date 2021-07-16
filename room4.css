@@ -1,0 +1,122 @@
+#roomClues{
+    position: relative;
+}
+
+#clueOne{
+    position:absolute;
+    top: 253px;
+    left: 78px;
+    background-image: url('icons/skill_icon_0.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 85px;
+    width: 85px;
+    transform:skewX(12deg);
+    cursor:pointer;
+}
+
+#clueOne.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_purple.png');
+    height: 400px;
+    width: 400px;
+    transform:skewX(0);
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueTwo{
+    position:absolute;
+    top: 388px;
+    left: 332px;
+    background-image: url('icons/play_wolf1_sample.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+}
+
+#clueTwo.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_brown.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueThree{
+    position:absolute;
+    top: 385px;
+    left: 399px;
+    background-image: url('icons/guild_flag_0.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    cursor:pointer;
+}
+
+#clueThree.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_red.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueFour{
+    position:absolute;
+    top: 310px;
+    left: 625px;
+    background-image: url('icons/levelup_badge_wing_left.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    cursor:pointer;
+}
+
+#clueFour.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_yellow.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+
+
+#clueFive{
+    position:absolute;
+    top: 420px;
+    left: 572px;
+    background-image: url('icons/package_icon_piggy.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    cursor:pointer;
+}
+
+#clueFive.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_green.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}

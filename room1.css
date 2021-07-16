@@ -1,0 +1,124 @@
+#roomClues{
+    position: relative;
+}
+
+#clueOne{
+    position:absolute;
+    top: 525px;
+    left: 170px;
+    background-image: url('icons/common_icon_book.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor:pointer;
+}
+
+#clueOne.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_purple.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueTwo{
+    position:absolute;
+    top: 459px;
+    left: 805px;
+    background-image: url('icons/lobby_menu_inventory.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    cursor:pointer;
+}
+
+#clueTwo.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_brown.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueThree{
+    position:absolute;
+    top: 438px;
+    left: 427px;
+    background-image: url('icons/common_icon_heart.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 75px;
+    transform: rotate(0.95turn);
+    cursor:pointer;
+}
+
+#clueThree.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_red.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
+
+#clueFour{
+    position:absolute;
+    top: 600px;
+    left: 340px;
+    background-image: url('icons/common_icon_dice.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    cursor:pointer;
+}
+
+#clueFour.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_yellow.png');
+    height: 400px;
+    width: 400px;
+    cursor:pointer;
+    z-index: 1;
+}
+
+
+
+#clueFive{
+    position:absolute;
+    top: 353px;
+    left: 710px;
+    background-image: url('icons/common_item_ring.png');
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 35px;
+    transform:rotate(0.8turn);
+    cursor:pointer;
+}
+
+#clueFive.clues.active{
+    top: 200px;
+    left: 300px;
+    background-image: url('icons/equipment_frame_green.png');
+    height: 400px;
+    width: 400px;
+    transform: rotate(0turn);
+    cursor:pointer;
+    z-index: 1;
+}
